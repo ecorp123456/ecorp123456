@@ -1,0 +1,125 @@
+/*
+Template Name: deewrap
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+@media(min-width:992px){
+    .tv-flex-box {flex-direction: row;-webkit-flex-direction: row;display: flex;display: -webkit-flex;}
+}
+@media (max-width: 991px){
+    h1 {font-size: 30px;}
+    h2 {font-size: 27px;}
+    h3 {font-size: 24px;}
+    h4 {font-size: 20px;}
+    h5 {font-size: 18px;}
+    h6 {font-size: 16px;}
+    p{
+        font-size: 14px;
+    }
+    .tv-main-header{
+        min-height: 500px;
+    }
+    .tv-main-banner-content {
+        left: 7%;
+        width: 43%;
+    }
+    .tv-flex-box .tv-box-img {
+        height: 495px;
+    }
+    .txt-right, .tv-box-text-inner{
+        text-align: center;
+    }
+    .tv-contact-form .form-group {
+        text-align: left;
+    }
+    #tv-aside-navbar{
+        top: 25%;
+    }
+}
+@media (max-width: 767px){
+    #tv-aside-navbar {
+        top: 50%;
+    }
+    .tv-main-header {
+        min-height: 400px;
+    }
+    .tv-flex-box .tv-box-img {
+        height: 540px;
+    }
+    .tv-client-img, .tv-counter-details{
+        margin: 20px 0;
+    }
+    .tv-bgbanner2 {
+        min-height: 250px;
+    }
+    .tv-map iframe {
+        height: 400px;
+    }
+    .tv-copyright, .tv-footer-social-links{
+        text-align: center;
+    }
+    .tv-copyright {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 500px){
+    h1 {font-size: 24px;}
+    h2 {font-size: 22px;}
+    h3 {font-size: 20px;}
+    h4 {font-size: 18px;}
+    h5 {font-size: 17px;}
+    h6 {font-size: 16px;}
+    p{
+        font-size: 13px;
+    }
+    .width-100{
+        width: 100%;
+    }
+    .tv-main-header {
+        min-height: 320px;
+    }
+    .tv-padding40 {
+        padding: 30px;
+    }
+    .tv-flex-box .tv-box-img {
+        height: 500px;
+    }
+    .tv-box-text{
+        text-align: center;
+    }
+    .tv-bgbanner1 {
+        min-height: 400px;
+    }
+}
+@media (max-width: 400px){
+    .width-100perc{
+        width: 100%;
+    }
+    .tv-main-header {
+        min-height: 350px;
+        background-position: 80% top;
+    }
+    .tv-main-banner-content {
+        left: 7%;
+        width: 70%;
+    }
+    .tv-padding40 {
+        padding: 25px;
+    }
+    .tv-banner-content {
+        left: 10%;
+        right: 10%;
+    }
+    .tv-bgbanner2 {
+        min-height: 450px;
+    }
+    .tv-subscribe-form input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .tv-post-content a {
+        font-size: 12px;
+    }
+}
